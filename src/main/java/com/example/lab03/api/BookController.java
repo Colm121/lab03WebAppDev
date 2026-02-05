@@ -19,7 +19,7 @@ public class BookController {
 
     // Base path: /books
     @GetMapping("/books")
-    public List<java.awt.print.Book> getAllBooks() {
+    public List<Book> getAllBooks() {
         return bookService.getAllBooks();
     }
 

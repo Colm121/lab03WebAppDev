@@ -2,7 +2,8 @@ package com.example.lab03.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.awt.print.Book;
+
+import com.example.lab03.domain.Book;
 import java.util.List;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
